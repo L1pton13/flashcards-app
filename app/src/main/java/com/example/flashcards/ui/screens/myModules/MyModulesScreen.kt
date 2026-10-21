@@ -31,7 +31,7 @@ import com.example.flushcards.data.preview.SampleData
 import com.example.flashcards.ui.screens.myModules.components.AddNewModuleButton
 import com.example.flashcards.ui.screens.myModules.components.ModulesColumn
 import com.example.flashcards.ui.theme.FlashcardsTheme
-import com.example.flashcards.utilities.ThemeManager
+import com.example.flashcards.util.ThemeManager
 
 @Composable
 fun MyModulesScreen(

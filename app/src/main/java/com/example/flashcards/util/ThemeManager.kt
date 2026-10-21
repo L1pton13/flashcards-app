@@ -1,4 +1,4 @@
-package com.example.flashcards.utilities
+package com.example.flashcards.util
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
