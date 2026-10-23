@@ -2,7 +2,6 @@ package com.example.flashcards.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-
 val DeepWater = Color(0xFF003B46)
 val Ocean = Color(0xFF07575B)
 val Wave = Color(0xFF66A5AD)
