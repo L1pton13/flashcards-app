@@ -1,4 +1,4 @@
-package com.example.flushcards.ui.screens.editModule
+package com.example.flashcards.ui.screens.editModule
 
 import androidx.lifecycle.ViewModel
 import com.example.flushcards.data.constants.ModuleConfig
