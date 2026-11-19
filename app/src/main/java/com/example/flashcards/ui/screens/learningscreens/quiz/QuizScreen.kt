@@ -25,6 +25,7 @@ import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
+import com.example.flashcards.ui.screens.learningscreens.quiz.components.AnswerCard
 import com.example.flushcards.R
 import com.example.flushcards.data.model.Module
 import com.example.flushcards.data.preview.SampleData
@@ -118,7 +119,7 @@ fun QuizScreen(
 @Preview(showBackground = true)
 @Composable
 fun QuizScreenPreview() {
-    FlushCardsTheme {
+    FlashcardsTheme {
         QuizScreen(
             module = SampleData.vocabularyModule, onExit = {})
     }

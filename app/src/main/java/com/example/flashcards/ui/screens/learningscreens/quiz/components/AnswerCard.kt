@@ -19,7 +19,6 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.flashcards.data.model.FlashCard
-import com.example.flashcards.ui.theme.FlashcardsTheme
 import com.example.flashcards.util.optionButtonBorderColor
 import com.example.flashcards.util.optionButtonColor
 import com.example.flushcards.data.preview.SampleData
@@ -81,7 +80,7 @@ private fun AnswerCardPreview() {
     val correctAnswer = sampleCard.getBack(isTermFirst = true)
     val wrongAnswer = "Wrong Answer"
 
-    FlashcardsTheme {
+    FlashCardsTheme {
         Column(
             modifier = Modifier.padding(16.dp),
             verticalArrangement = Arrangement.spacedBy(12.dp)
